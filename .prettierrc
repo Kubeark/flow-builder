@@ -1,11 +1,22 @@
 {
-  "singleQuote": true,
-  "trailingComma": "all",
-  "printWidth": 80,
+	"importOrder": [
+		"^components/(.*)$",
+		"^[./]"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"singleQuote": true,
+	"printWidth": 140,
+	"useTabs": true,
+	"bracketSpacing": true,
+	"jsxBracketSameLine": false,
+	"trailingComma": "all",
+	"semi": true,
   "overrides": [
     {
       "files": ".prettierrc",
       "options": { "parser": "json" }
     }
-  ]
+  ],
+	"endOfLine": "lf"
 }
