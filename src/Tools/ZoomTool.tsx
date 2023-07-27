@@ -25,7 +25,7 @@ const ZoomTool = () => {
         disabled={minDisabled}
         onClick={() => zoom('out')}
       >
-        -
+        - test
       </button>
       <span className="flow-builder-zoom-tool__number">{zoomValue + '%'}</span>
       <button

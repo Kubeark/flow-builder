@@ -101,6 +101,7 @@ const AddNodeButton: React.FC<IProps> = (props) => {
 						getPopupContainer={(triggerNode: any) => triggerNode as HTMLElement}
 					>
 						<div className="flow-builder-add-btn">
+							Test
 							<ActionButton icon={AddIcon} />
 						</div>
 					</PopoverComponent>

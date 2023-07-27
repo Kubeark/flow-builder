@@ -28,9 +28,7 @@ const FlowBuilder = forwardRef<IFlowBuilderMethod, IFlowBuilderProps>(
   (props, ref) => {
     const { zoomTool, nodes, onChange, sortable } = props;
 
-    const [zoomValue, setZoomValue] = useState<number>(
-      (zoomTool as IZoomToolConfig)?.initialValue || 100,
-    );
+    const [zoomValue, setZoomValue] = useState<number>(100);
 
     const [historyRecords, setHistoryRecords] = useState<INode[][]>([]);
     const [activeHistoryRecordIndex, setActiveHistoryRecordIndex] =
