@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Page-1" id="VlCAZf-4jltOdiqh5s_E">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Import Web Leads from Merchants&#39; APIs" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="77" width="1492" height="399" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Authenticate with API" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="33" y="122" width="171" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Fetch Leads" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="254" y="157" width="101" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Transform Data" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="405" y="145" width="124" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Validate Data" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="579" y="152" width="111" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Map to Phone Number &amp; Basket Information" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="740" y="43" width="329" height="329" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Insert into Database" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="1119" y="128" width="159" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Send Confirmation" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="1328" y="134" width="147" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.05;entryX=0;entryY=-0.26;" edge="1" parent="2" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=-0.26;entryX=0;entryY=-0.12;" edge="1" parent="2" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=-0.12;entryX=0;entryY=-0.19;" edge="1" parent="2" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=-0.19;entryX=0;entryY=0.27;" edge="1" parent="2" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.27;entryX=0;entryY=0.02;" edge="1" parent="2" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.02;entryX=0;entryY=-0.02;" edge="1" parent="2" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Insert Leads" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1542" width="991" height="552" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Input Phone Number &amp; Basket Information" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="16">
+          <mxGeometry x="656" y="43" width="318" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Input" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="16">
+          <mxGeometry x="33" y="277" width="52" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Extract Phone Number" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="16">
+          <mxGeometry x="151" y="83" width="176" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Extract Basket Information" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="16">
+          <mxGeometry x="135" y="314" width="207" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Validate Phone Number" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="16">
+          <mxGeometry x="409" y="79" width="182" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Validate Basket Information" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="16">
+          <mxGeometry x="393" y="311" width="214" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Insert into Database" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="16">
+          <mxGeometry x="735" y="215" width="159" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-29.02;exitY=0.01;entryX=-8.76;entryY=0.5;" edge="1" parent="16" source="18" target="19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-29.02;exitY=1.01;entryX=-7.45;entryY=0.5;" edge="1" parent="16" source="18" target="20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-7.76;exitY=0.5;entryX=-8.48;entryY=0.5;" edge="1" parent="16" source="19" target="21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-6.45;exitY=0.5;entryX=-7.21;entryY=0.5;" edge="1" parent="16" source="20" target="22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-7.48;exitY=0.5;entryX=-9.7;entryY=0.16;" edge="1" parent="16" source="21" target="23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-6.21;exitY=0.5;entryX=-9.7;entryY=0.84;" edge="1" parent="16" source="22" target="23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="op1," style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2583" y="259" width="47" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
